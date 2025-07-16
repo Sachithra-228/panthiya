@@ -84,16 +84,23 @@ const HomePage = () => {
         <div className="absolute inset-0 bg-black/10"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-32">
           <div className="text-center">
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6">
-              Master IT Skills with
-              <span className="block text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 to-orange-300">
-                AI-Powered Learning
-              </span>
-            </h1>
-                         <p className="text-xl text-white/90 mb-8 max-w-3xl mx-auto">
-               Choose your specialization, follow structured roadmaps, and accelerate your career 
-               in Information Technology, Software Engineering, Data Science, or Interactive Media.
-             </p>
+            <div className="flex flex-col items-center mb-6">
+              <img 
+                src="/images/class.png" 
+                alt="Class Logo" 
+                className="w-20 h-20 object-contain mb-4"
+              />
+              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white">
+                Master IT Skills with
+                <span className="block text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 to-orange-300">
+                  AI-Powered Learning
+                </span>
+              </h1>
+            </div>
+            <p className="text-xl text-white/90 mb-8 max-w-3xl mx-auto">
+              Choose your specialization, follow structured roadmaps, and accelerate your career 
+              in Information Technology, Software Engineering, Data Science, or Interactive Media.
+            </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
                 to="/ai-assistant"

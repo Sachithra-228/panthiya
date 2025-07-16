@@ -1,7 +1,7 @@
 {
-  "name": "panthiya-backend",
+  "name": "class-backend",
   "version": "1.0.0",
-  "description": "Backend API for Panthiya Learning Platform",
+  "description": "Backend API for Class Learning Platform",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",

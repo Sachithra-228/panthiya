@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, BookOpen, Brain, User, Search } from 'lucide-react';
+import { Menu, X, Brain, User, Search } from 'lucide-react';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -18,10 +18,11 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <div className="w-8 h-8 gradient-bg rounded-lg flex items-center justify-center">
-              <BookOpen className="w-5 h-5 text-white" />
-            </div>
-            <span className="text-xl font-bold text-gradient">Panthiya</span>
+            <img 
+              src="/images/class.png" 
+              alt="Class Logo" 
+              className="w-10 h-10 object-contain"
+            />
           </Link>
 
           {/* Desktop Navigation */}
