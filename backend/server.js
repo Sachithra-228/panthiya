@@ -33,7 +33,7 @@ app.use('/api/users', userRoutes);
 app.get('/api/health', (req, res) => {
   res.json({ 
     status: 'OK', 
-    message: 'Panthiya Learning Platform API is running',
+    message: 'Sachi Learning Platform API is running',
     timestamp: new Date().toISOString()
   });
 });
@@ -41,7 +41,7 @@ app.get('/api/health', (req, res) => {
 // Default route
 app.get('/', (req, res) => {
   res.json({ 
-    message: 'Welcome to Panthiya Learning Platform API',
+    message: 'Welcome to Sachi Learning Platform API',
     version: '1.0.0',
     endpoints: {
       health: '/api/health',
@@ -63,8 +63,14 @@ app.use((err, req, res, next) => {
   res.status(500).json({ error: 'Something went wrong!' });
 });
 
-app.listen(PORT, () => {
-  console.log(`🚀 Server is running on port ${PORT}`);
-  console.log(`📚 Panthiya Learning Platform API`);
-  console.log(`🌐 Health check: http://localhost:${PORT}/api/health`);
-}); 
+// For Vercel deployment, export the app instead of listening
+module.exports = app;
+
+// For local development
+if (require.main === module) {
+  app.listen(PORT, () => {
+    console.log(`🚀 Server is running on port ${PORT}`);
+    console.log(`📚 Sachi Learning Platform API`);
+    console.log(`🌐 Health check: http://localhost:${PORT}/api/health`);
+  });
+} 
