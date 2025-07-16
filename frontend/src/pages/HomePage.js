@@ -10,8 +10,6 @@ import {
   Brain,
   FileText,
   Award,
-  MessageSquare,
-  Star,
   Users,
   BookOpen,
   Target

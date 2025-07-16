@@ -6,9 +6,7 @@ import {
   BookOpen,
   Users,
   TrendingUp,
-  CheckCircle,
   Play,
-  Award,
   DollarSign,
   MapPin,
   ChevronRight
@@ -47,7 +45,7 @@ const SpecializationPage = () => {
     };
 
     loadSpecializationData();
-  }, [id]);
+  }, [id, fetchSpecializationById, fetchModules, fetchRoadmap, fetchJobs]);
 
   const getLevelColor = (level) => {
     const colors = {
