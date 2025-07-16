@@ -1,7 +1,7 @@
 {
-  "name": "class-backend",
+  "name": "sc-backend",
   "version": "1.0.0",
-  "description": "Backend API for Class Learning Platform",
+  "description": "Backend API for SC Learning Platform",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",

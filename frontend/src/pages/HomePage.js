@@ -86,8 +86,8 @@ const HomePage = () => {
           <div className="text-center">
             <div className="flex flex-col items-center mb-6">
               <img 
-                src="/images/class.png" 
-                alt="Class Logo" 
+                src="/images/sc.png" 
+                alt="SC Logo" 
                 className="w-20 h-20 object-contain mb-4"
               />
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white">
