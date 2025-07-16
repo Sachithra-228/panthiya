@@ -1,4 +1,4 @@
-# 🎓 SC Learning Platform
+# 🎓 Sachi Learning Platform
 
 <div align="center">
   
@@ -17,7 +17,7 @@
 
 ## 📖 **Overview**
 
-SC is a comprehensive student-focused learning platform with AI support for IT specializations including **Information Technology (IT)**, **Software Engineering (SE)**, **Data Science (DS)**, and **Interactive Media (IM)**. The platform provides personalized learning paths, career guidance, and interactive features to accelerate your tech career.
+Sachi is a comprehensive student-focused learning platform with AI support for IT specializations including **Information Technology (IT)**, **Software Engineering (SE)**, **Data Science (DS)**, and **Interactive Media (IM)**. The platform provides personalized learning paths, career guidance, and interactive features to accelerate your tech career.
 
 ### ✨ **Key Highlights**
 - 🤖 **AI-Powered Recommendations** - Smart module and career suggestions

@@ -1,7 +1,7 @@
 {
-  "name": "sc-backend",
+  "name": "sachi-backend",
   "version": "1.0.0",
-  "description": "Backend API for SC Learning Platform",
+  "description": "Backend API for Sachi Learning Platform",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
